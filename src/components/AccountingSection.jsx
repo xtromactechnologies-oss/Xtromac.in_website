@@ -16,6 +16,7 @@ const AccountingSection = () => {
               <li><CheckCircle2 size={18} /> Comprehensive Financial Reports</li>
               <li><CheckCircle2 size={18} /> GST ready reports</li>
               <li><CheckCircle2 size={18} /> Seamless Excel &amp; PDF Export</li>
+              <li><CheckCircle2 size={18} /> Free trial of 60 days</li>
             </ul>
             <div style={{ marginTop: '2rem' }}>
               <a 

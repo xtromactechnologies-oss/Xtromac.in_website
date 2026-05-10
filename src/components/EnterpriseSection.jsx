@@ -16,6 +16,7 @@ const EnterpriseSection = ({ onContactClick }) => {
               <li><CheckCircle2 size={18} /> Multi-Warehouse Support</li>
               <li><CheckCircle2 size={18} /> Advanced Reporting &amp; Analytics</li>
               <li><CheckCircle2 size={18} /> Multi user support with access control</li>
+              <li><CheckCircle2 size={18} /> Free trial of 60 days</li>
             </ul>
             <div style={{ marginTop: '2rem' }}>
               <button onClick={onContactClick} className="btn btn-secondary">

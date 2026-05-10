@@ -26,6 +26,7 @@ const AndroidAppSection = () => {
               <li><CheckCircle2 size={18} /> Stock/Inventory (Single Location)</li>
               <li><CheckCircle2 size={18} /> GST Ready Sales Reports</li>
               <li><CheckCircle2 size={18} /> Full Trial Balance Reporting</li>
+              <li><CheckCircle2 size={18} /> Free trial of more than 2 months</li>
             </ul>
 
             <div style={{ marginTop: '2rem' }}>
