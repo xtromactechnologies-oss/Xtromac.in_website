@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="footer-brand">
             <a href="/" className="nav-logo">
               <div className="logo-icon">X</div>
-              <span>XTROMAC</span>
+              <span>XTROMAC<sup style={{ fontSize: '0.5em' }}>&trade;</sup></span>
             </a>
             <p>Empowering businesses with intelligent financial and inventory management solutions. Built for scale, security, and simplicity.</p>
 

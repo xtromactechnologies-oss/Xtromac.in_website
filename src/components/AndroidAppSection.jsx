@@ -10,10 +10,15 @@ const AndroidAppSection = () => {
             <div className="badge enterprise-badge" style={{ background: 'rgba(16, 185, 129, 0.2)', color: '#34D399', border: '1px solid rgba(16, 185, 129, 0.3)' }}>Premium Edition</div>
             <h2>Xtromac <span>Android App</span></h2>
             <p>Advance Android Accounting App to manage your business on the go. Experience seamless synchronization and robust features available right from your mobile device.</p>
-            <div className="price" style={{ margin: '1.5rem 0', display: 'flex', alignItems: 'baseline', gap: '0.2rem' }}>
+            <div className="price" style={{ marginTop: '1.5rem', display: 'flex', alignItems: 'baseline', gap: '0.2rem' }}>
               <span className="currency" style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>₹</span>
               <span className="amount" style={{ fontSize: '2.5rem', fontWeight: 'bold' }}>1499</span>
               <span className="period" style={{ fontSize: '1rem', color: '#8b949e' }}>/per annum</span>
+            </div>
+
+            <div className="old-price-container" style={{ marginBottom: '1.5rem' }}>
+              <span className="old-price">₹2499</span>
+              <span className="discount-badge">SAVE ₹1000</span>
             </div>
 
             <ul className="info-list">

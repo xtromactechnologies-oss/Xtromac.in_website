@@ -18,7 +18,7 @@ const Navbar = ({ onContactClick }) => {
       <div className="landing-container nav-content">
         <a href="/" className="nav-logo">
           <div className="logo-icon">X</div>
-          <span>XTROMAC</span>
+          <span>XTROMAC<sup style={{ fontSize: '0.5em' }}>&trade;</sup></span>
         </a>
 
         <div className="nav-links desktop-only">
