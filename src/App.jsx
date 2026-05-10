@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import Features from './components/Features';
 import EnterpriseSection from './components/EnterpriseSection';
-import Pricing from './components/Pricing';
-import Download from './components/Download';
+import AccountingSection from './components/AccountingSection';
+import AndroidAppSection from './components/AndroidAppSection';
 import Footer from './components/Footer';
 import ContactModal from './components/ContactModal';
 
@@ -14,20 +13,19 @@ function App() {
   return (
     <div className="app">
       <Navbar onContactClick={() => setIsContactModalOpen(true)} />
-      
+
       <main>
         <Hero />
-        <EnterpriseSection />
-        <Features />
-        <Pricing />
-        <Download />
+        <AccountingSection />
+        <AndroidAppSection />
+        <EnterpriseSection onContactClick={() => setIsContactModalOpen(true)} />
       </main>
 
       <Footer />
 
-      <ContactModal 
-        isOpen={isContactModalOpen} 
-        onClose={() => setIsContactModalOpen(false)} 
+      <ContactModal
+        isOpen={isContactModalOpen}
+        onClose={() => setIsContactModalOpen(false)}
       />
     </div>
   );

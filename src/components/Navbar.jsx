@@ -22,10 +22,7 @@ const Navbar = ({ onContactClick }) => {
         </a>
 
         <div className="nav-links desktop-only">
-          <a href="#features">Solutions</a>
-          <a href="#enterprise">Enterprise</a>
-          <a href="#pricing">Pricing</a>
-          <a href="#download">Download</a>
+          <a href="https://www.youtube.com/@Xtromac" target="_blank" rel="noopener noreferrer">Tutorial Videos</a>
           <button onClick={onContactClick} className="nav-contact-btn">
             Get in touch
           </button>
@@ -41,10 +38,7 @@ const Navbar = ({ onContactClick }) => {
 
       {isMobileMenuOpen && (
         <div className="mobile-menu glass">
-          <a href="#features" onClick={() => setIsMobileMenuOpen(false)}>Solutions</a>
-          <a href="#enterprise" onClick={() => setIsMobileMenuOpen(false)}>Enterprise</a>
-          <a href="#pricing" onClick={() => setIsMobileMenuOpen(false)}>Pricing</a>
-          <a href="#download" onClick={() => setIsMobileMenuOpen(false)}>Download</a>
+          <a href="https://www.youtube.com/@Xtromac" target="_blank" rel="noopener noreferrer" onClick={() => setIsMobileMenuOpen(false)}>Tutorial Videos</a>
           <button onClick={() => { onContactClick(); setIsMobileMenuOpen(false); }} className="nav-contact-btn">
             Get in touch
           </button>

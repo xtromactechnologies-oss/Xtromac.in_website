@@ -18,16 +18,7 @@ const Hero = () => {
           The ultimate Professional Finance &amp; Inventory Management solution for modern enterprises and retail businesses. Streamline your operations with powerful insights.
         </p>
 
-        <div className="hero-buttons">
-          <a href="#download" className="btn btn-primary">
-            Download Now
-            <Download size={20} />
-          </a>
-          <a href="#features" className="btn btn-secondary">
-            Explore Features
-            <ArrowRight size={20} />
-          </a>
-        </div>
+
 
         <div className="hero-visual">
           <div className="visual-placeholder glass" />

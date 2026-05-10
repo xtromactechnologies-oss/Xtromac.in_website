@@ -1,7 +1,7 @@
 import React from 'react';
 import { Play, CheckCircle2 } from 'lucide-react';
 
-const EnterpriseSection = () => {
+const EnterpriseSection = ({ onContactClick }) => {
   return (
     <section id="enterprise" className="section enterprise-section">
       <div className="landing-container">
@@ -17,6 +17,11 @@ const EnterpriseSection = () => {
               <li><CheckCircle2 size={18} /> Advanced Reporting &amp; Analytics</li>
               <li><CheckCircle2 size={18} /> Multi user support with access control</li>
             </ul>
+            <div style={{ marginTop: '2rem' }}>
+              <button onClick={onContactClick} className="btn btn-secondary">
+                Contact for Demo &amp; Installation
+              </button>
+            </div>
           </div>
 
           <div className="enterprise-video">

@@ -12,11 +12,7 @@ const Footer = () => {
               <span>XTROMAC</span>
             </a>
             <p>Empowering businesses with intelligent financial and inventory management solutions. Built for scale, security, and simplicity.</p>
-            <div className="social-links">
-              <a href="#"><Globe2 size={20} /></a>
-              <a href="#"><Share2 size={20} /></a>
-              <a href="#"><Info size={20} /></a>
-            </div>
+
           </div>
 
           <div className="footer-contact">
@@ -40,9 +36,6 @@ const Footer = () => {
 
           <div className="footer-links">
             <h4>Quick Links</h4>
-            <a href="#features">Solutions</a>
-            <a href="#enterprise">Enterprise</a>
-            <a href="#pricing">Pricing</a>
             <a href="/privacy.html">Privacy Policy</a>
           </div>
         </div>
